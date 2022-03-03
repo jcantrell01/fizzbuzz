@@ -6,7 +6,9 @@ int main ()
 {
     for(int i = 1; i <= 100; i++)
     {
-        cout<<"test";       
+        if(i % (2+1) == 0) {
+            cout<<"test"<< endl;;
+        };       
     }
     return 0;
 }
